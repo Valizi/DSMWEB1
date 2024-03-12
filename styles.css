@@ -1,0 +1,97 @@
+body {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    font-size: 130%; /* Aumenta o tamanho do texto em 30% */
+    text-align: center;
+}
+
+.container {
+    max-width: 1040px; /* Aumenta a largura máxima em 30% */
+    margin: 0 auto;
+    padding: 40px; /* Aumenta o preenchimento em 30% */
+    text-align: center;
+}
+
+.profile-container {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Adiciona uma sombra mais leve */
+    width: 260px; /* Aumenta o tamanho da foto em 30% */
+    height: 260px; /* Aumenta o tamanho da foto em 30% */
+    display: inline-block;
+    position: relative;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-container h2 {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    margin: 0;
+}
+
+/* Carrossel */
+.carousel {
+    margin-top: 40px;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ícones das Redes Sociais */
+.social-icons {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 48px; /* Aumenta o tamanho dos ícones em 30% */
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.15);
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+/* Botões */
+.buttons-container {
+    margin-top: 40px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px; /* Aumenta o tamanho dos botões em 30% */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:not(:last-child) {
+    margin-right: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
